@@ -1,0 +1,57 @@
+<html>
+<style>
+	h1 {
+		color: white;
+		font-family:"Impact";
+		text-align: center;
+	}
+	h2 {
+		color: white;
+		font-family:"Impact";
+		text-align: center;
+	}
+	
+	h3 {
+		color: white;
+		font-family:"Impact";
+		text-align: center;
+	}
+</style>
+<body style="background-color:#aa80ff">
+	<h1>Welcome to diagnose yourself! </h1>
+	<h2>Enter your top 7 most prominent symptoms</h2>
+	<form action="results.html">
+				Name: <input type="text" name="name"><br>
+				Age: <input type="number" name="age" autocomplete="on"><br>
+				Gender: <input type="text" name="gender"><br>
+				Region - Where are you from? : <input type="text" name="area"><br>
+				Where are you experiencing issues?: <input type="text" name="issues" list="parts"><br>
+				Symptoms: <input type="text" name="symp1"><br>
+
+			<a href="results.html">	<input type="submit" value="Submit"></a>
+	</form>
+
+	<datalist id="parts">
+		<option value="Head">
+		<option value="Shoulders">
+		<option value="Arms">
+		<option value="Torso">
+		<option value="Hips">
+		<option value="Legs">
+	</datalist>
+
+	<script>
+		function loadXMLDoc() {
+		  var xhttp = new XMLHttpRequest();
+		  xhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+			  document.getElementById("demo").innerHTML =
+			  this.responseText;
+			}
+		  };
+		  xhttp.open("GET", "", true);
+		  xhttp.send();
+	}
+	</script>
+</body>
+</html>
