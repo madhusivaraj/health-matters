@@ -8,7 +8,7 @@ What inspired us to build this project was the amount of diagnosis that occurs e
 Our web app allows users to obtain personalized recommendations about clinical preventative measures tailored to his/her age, sex, and/or pregnancy status.
 
 ## How we built it
-We utilized the healthfinder.gov API and integrated outside datasets for machine learning analysis and visualization. To present these findings, we built a website using HTML/CSS. We modeled our project after GitHub repository called Healthcare AI.
+We utilized the healthfinder.gov API and integrated outside datasets for machine learning analysis and visualization. To present these findings, we built a website using HTML/CSS.
 
 ## Challenges we ran into
 We ran into multiple challenges halfway through our project such as finding a decent API which matched all our requirements and was still available for use. We also had trouble connecting the back end of our project to the front end of the project because none of us were well versed with javascript or CGI which put our project on hold for a few hours while we figured out what to do. We also ran into merge conflicts on git because of which we had to stop and evaluate whose requests should be accepted or denied where.
