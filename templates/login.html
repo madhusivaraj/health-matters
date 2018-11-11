@@ -1,18 +1,92 @@
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Health Matters</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="../static/styles.css">
-</head>
-<body style="background-color:#aa80ff">
+	<head>
+		<title>Technica 2018</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
 
-	<h2>Now sign in to be redirected to the symptoms page!</h2>
-	<h3>Login</h3>
-			<form action="symptoms.html">
-				User name: <input type="text" name="user"><br>
-				Password: <input type="password" name="pass"><br>
-			<input type="submit" value="Log in">
-			</form>
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt" style="background-color:#00000067">
+						<b><a href="http://gotechnica.org">TECHNICA 2018</a></b>
+						<b>&nbsp;&nbsp;&nbsp;<a href="about.html">ABOUT</a></b>
+						<b>&nbsp;&nbsp;&nbsp;<a href="team.html">TEAM</a></b>
+						<nav>
+							<a href="#menu">Join Us</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+
+					<nav id="menu">
+						<div class="inner">
+							<h2>Join Us</h2>
+							<ul class="links">
+								<li><a href="login.html">Log In</a></li>
+								<li><a href="register.html">Sign Up</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+						<header>
+							<div class="inner">
+								<h2>SIGN IN</h2>
+								<p>Please log into your account. If you have not created an account already, register <a href="register.html">here</a>.</p>
+							</div>
+						</header>
+
+						<!-- Content -->
+							<div class="wrapper">
+								<div class="inner">
+									<section>
+										<h3 class="major">Log In</h3>
+										<form method="post" action="form.html">
+											<div class="row gtr-uniform">
+												<div class="col-6 col-12-xsmall">
+													<label for="demo-name">Username</label>
+													<input type="text" name="demo-name" id="demo-name" value="" />
+												</div>
+												<div class="col-6 col-12-xsmall">
+													<label for="demo-email">Password</label>
+													<input type="password" name="demo-password" id="demo-password" value="" />
+												</div>
+												<div class="col-12">
+													<ul class="actions">
+														<li><input type="submit" value="Log In" class="primary" /></li>
+														<li><input type="reset" value="Reset" /></li>
+													</ul>
+												</div>
+											</div>
+										</form>
+									</section>
+
+									
+
+								</div>
+							</div>
+
+					</section>
+
+				
+			</div>
+
+		<!-- Scripts -->
+		<script src="../assets/js/jquery.min.js"></script>
+		<script src="../assets/js/jquery.scrollex.min.js"></script>
+		<script src="../assets/js/browser.min.js"></script>
+		<script src="../assets/js/breakpoints.min.js"></script>
+		<script src="../assets/js/util.js"></script>
+		<script src="../assets/js/main.js"></script>
+
 </body>
 </html>
